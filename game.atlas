@@ -1,0 +1,103 @@
+Chih-yuen.png
+size: 64,56
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Units/Chih-yuen
+  rotate: false
+  xy:0,0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+
+KMS U47.png
+size: 64,56
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Units/KMS U47
+  rotate: false
+  xy:0,0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+
+USS Bogue.png
+size: 64,56
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Units/USS Bogue
+  rotate: false
+  xy:0,0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+
+IJN Yamato.png
+size: 64,56
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Units/IJN Yamato
+  rotate: false
+  xy:0,0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+
+HMS Hood.png
+size: 64,56
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Units/HMS Hood
+  rotate: false
+  xy:0,0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+
+IJN Akagi.png
+size: 64,56
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Units/IJN Akagi
+  rotate: false
+  xy:0,0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+
+USS Yorktown.png
+size: 64,56
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Units/USS Yorktown
+  rotate: false
+  xy:0,0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+
+KMS Bismarck.png
+size: 64,56
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Units/KMS Bismarck
+  rotate: false
+  xy:0,0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
