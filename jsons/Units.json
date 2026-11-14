@@ -1,0 +1,142 @@
+[
+
+	{
+		"name": "Battleship",
+		"unitType": "Ranged Water",
+		"movement": 5,
+		"strength": 55,
+		"rangedStrength": 55,
+		"range": 3,
+		"cost": 375,
+		"requiredResource": "Oil",
+		"requiredTech": "Electronics",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire","AdvancedRefit"],
+		"attackSound": "shipguns"
+		// Does not actually upgrade to Missile Cruisers
+	},
+	{
+		"name": "Chih-yuen",
+		"unitType": "Melee Water",
+		"uniqueTo": "China",
+		"replaces": "Ironclad",
+		"movement": 3,
+		"strength": 50,
+		"cost": 300,
+		"requiredTech": "Steam Power",
+		"requiredResource": "Coal",
+		"upgradesTo": "Destroyer",
+		"obsoleteTech": "Combustion",
+		"promotions": ["Morale"],
+		"uniques": ["[+33]% Strength <vs cities>","Double movement in [Coast]", "[+300]% maintenance costs", "Can move immediately once bought"],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Destroyer",
+		"unitType": "Melee Water",
+		"movement": 6,
+		"strength": 55,
+		"interceptRange": 2,
+		"cost": 375,
+		"promotions": ["AdvancedRefit"],
+		"requiredTech": "Combustion",
+		"uniques": ["Can see invisible [Submarine] units", "[40]% chance to intercept air attacks",
+			"Withdraws before melee combat <with [80]% chance>", "[+100]% Strength <vs [Submarine] units>"],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "KMS U47",
+		"unitType": "Submarine",
+		"uniqueTo": "Germany",
+		"replaces": "Submarine",
+		"movement": 6,
+		"strength": 30,
+		"rangedStrength": 60,
+		"cost": 320,
+		"promotions": ["Wolfpack I"],
+		"requiredTech": "Refrigeration",
+		"upgradesTo": "Nuclear Submarine",
+		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Never appears as a Barbarian unit"],
+		"attackSound": "torpedo"
+	},
+	{
+		"name": "USS Bogue",
+		"unitType": "Aircraft Carrier",
+		"uniqueTo": "America",
+		"movement": 5,
+		"strength": 30,
+		"cost": 200,
+		"requiredTech": "Electronics",
+		"uniques": ["Cannot attack", "Can carry [1] [Aircraft] units"]
+	},
+	{
+		"name": "IJN Yamato",
+		"unitType": "Ranged Water",
+		"uniqueTo": "Japan",
+		"movement": 5,
+		"strength": 65,
+		"rangedStrength": 65,
+		"range": 3,
+		"cost": 400,
+		"requiredResource": "Oil",
+		"requiredTech": "Electronics",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire","AdvancedRefit","RangeBoost","Morale"],
+		"attackSound": "shipguns"
+},
+	{
+		"name": "HMS Hood",
+		"unitType": "Ranged Water",
+		"uniqueTo": "England",
+		"movement": 6,
+		"strength": 45,
+		"rangedStrength": 55,
+		"range": 3,
+		"cost": 355,
+		"requiredResource": "Oil",
+		"requiredTech": "Electronics",
+		"uniques": ["Never appears as a Barbarian unit","[+25]% Strength <vs [Melee Water] units>"],
+		"promotions": ["Indirect Fire","AdvancedRefit","EvasiveManeuver I"],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "IJN Akagi",
+		"unitType": "Aircraft Carrier",
+		"uniqueTo": "Japan",
+		"movement": 5,
+		"strength": 42,
+		"cost": 395
+		"requiredTech": "Electronics",
+		"promotions": ["Armor Plating I"],
+		"uniques": ["Cannot attack", "Can carry [2] [Aircraft] units"] 
+	},
+	{
+		"name": "USS Yorktown",
+		"unitType": "Aircraft Carrier",
+		"uniqueTo": "America",
+		"movement": 5,
+		"strength": 42,
+		"cost": 395
+		"requiredTech": "Electronics",
+		"promotions": ["DispatchCenter I"],
+		"uniques": ["Cannot attack", "Can carry [2] [Aircraft] units"] 
+	},
+	{
+		"name": "KMS Bismarck",
+		"unitType": "Ranged Water",
+		"uniqueTo": "Germany",
+		"replaces": "Battleship",
+		"movement": 5,
+		"strength": 55,
+		"rangedStrength": 60,
+		"range": 3,
+		"cost": 385,
+		"requiredResource": "Oil",
+		"requiredTech": "Electronics",
+		"promotions": ["FireControlUpgrade III"],
+		"uniques": ["Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire","AdvancedRefit"],
+		"attackSound": "shipguns"
+	},
+
+]

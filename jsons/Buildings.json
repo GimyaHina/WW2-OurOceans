@@ -1,0 +1,12 @@
+[
+
+	{
+		"name": "DryDock",
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"requiredBuilding": "Harbor",
+		"uniques": ["Must be next to [Coast]", "[+15]% Production when constructing [Water] units [in this city]","Destroyed when the city is captured","All newly-trained [Water] units [in this city] receive the [AdvancedRefit] promotion"],
+		"requiredTech": "Industrialization"
+	},
+
+]
