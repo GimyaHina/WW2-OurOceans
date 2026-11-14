@@ -1,0 +1,373 @@
+[
+//屏卫舰
+	{
+		"name": "AntiSubmarine I",
+		"prerequisites": [AdvancedRefit],
+		"uniques": ["[+50]% Strength <vs [Submarine] units>"],
+		"unitTypes": ["Melee Water"]
+		"row": 5,
+	        "column": 25,
+    },
+	{
+		"name": "AntiSubmarine II",
+		"prerequisites": ["AntiSubmarine I"],
+		"uniques": ["[+50]% Strength <vs [Submarine] units>"],
+		"unitTypes": ["Melee Water"]
+		"row": 6,
+        "column": 1
+    },
+{
+		"name": "Torpedo I",
+		"prerequisites": [AdvancedRefit],
+		"uniques": ["[+33]% Strength <vs [Melee Water] units>", "[+33]% Strength <vs [Ranged Water] units>"],
+		"unitTypes": ["Melee Water"]
+		"row": 5,
+        "column": 26,
+    },
+{
+		"name": "Torpedo II",
+		"prerequisites": ["Torpedo I"],
+		"uniques": ["[+33]% Strength <vs [Melee Water] units>", "[+33]% Strength <vs [Ranged Water] units>"],
+		"unitTypes": ["Melee Water"]
+		"row": 6,
+        "column": 2
+    },
+{
+		"name": "Torpedo III",
+		"prerequisites": ["Torpedo II"],
+		"uniques": ["[+34]% Strength <vs [Melee Water] units>", "[+34]% Strength <vs [Ranged Water] units>"],
+		"unitTypes": ["Melee Water"]
+		"row": 7,
+        "column": 1
+    },
+{
+		"name": "NavalGun I",
+		"prerequisites": [AdvancedRefit],
+		"uniques": ["[+15]% Strength <vs [Melee Water] units>", "[+15]% Strength <vs [Ranged Water] units>","[+15]% Strength <vs [Land] units>", "[+10]% Strength <vs cities> "],
+		"unitTypes": ["Melee Water"]
+		"row": 5,
+        "column": 27
+    },
+{
+		"name": "NavalGun II",
+		"prerequisites": ["NavalGun I"],
+		"uniques": ["[+15]% Strength <vs [Melee Water] units>", "[+15]% Strength <vs [Ranged Water] units>","[+15]% Strength <vs [Land] units>", "[+10]% Strength <vs cities> "],
+		"unitTypes": ["Melee Water"]
+		"row": 6,
+        "column": 3
+    },
+{
+		"name": "NavalGun III",
+		"prerequisites": ["NavalGun II"],
+		"uniques": ["[+15]% Strength <vs [Melee Water] units>", "[+15]% Strength <vs [Ranged Water] units>","[+15]% Strength <vs [Land] units>", "[+10]% Strength <vs cities> "],
+		"unitTypes": ["Melee Water"]
+		"row": 7,
+        "column": 2
+    },
+{
+		"name": "Anti-Air I",
+		"prerequisites": [AdvancedRefit],
+		"uniques": ["[+33]% Strength <vs [Air] units>"],
+		"unitTypes": ["Melee Water"]
+		"row": 5,
+        "column": 28
+    },
+{
+		"name": "Anti-Air II",
+		"prerequisites": ["Anti-Air I"],
+		"uniques": ["[+33]% Strength <vs [Air] units>"],
+		"unitTypes": ["Melee Water"]
+		"row": 6,
+        "column": 4
+    },
+{
+		"name": "Anti-Air III",
+		"prerequisites": ["Anti-Air II"],
+		"uniques": ["[+34]% Strength <vs [Air] units>"],
+		"unitTypes": ["Melee Water"]
+		"row": 7,
+        "column": 3
+    },
+{
+		"name": "CoastalDefenseShip",
+		"prerequisites": [NavalGun II],
+		"uniques": ["Double movement in [Coast]","[+33]% Strength <when fighting in [Coast] tiles>","[+33]% Strength <when fighting in [Land] tiles>"],
+		"unitTypes": ["Melee Water"]
+		"row": 7,
+        "column": 4
+    },
+{
+		"name": "AirDefenseNetwork",
+		"prerequisites": ["Anti-Air II"],
+		"uniques": [ "[90]% chance to intercept air attacks"],
+		"unitTypes": ["Melee Water"]
+		"row": 7,
+        "column": 5
+    }
+//主力舰
+
+{
+		"name": "TurretReinforcement I",
+		"prerequisites": [AdvancedRefit],
+		"uniques": ["[+33]% Strength <vs [Water] units>"],
+		"unitTypes": ["Ranged Water"]
+		"row": 5,
+        "column": 29
+    },
+{
+		"name": "TurretReinforcement II",
+		"prerequisites": ["TurretReinforcement I"],
+		"uniques": ["[+33]% Strength <vs [Water] units>"],
+		"unitTypes": ["Ranged Water"]
+		"row": 6,
+        "column": 5
+    },
+{
+		"name": "TurretReinforcement III",
+		"prerequisites": ["TurretReinforcement II"],
+		"uniques": ["[+34]% Strength <vs [Water] units>"],
+		"unitTypes": ["Ranged Water"]
+		"row": 7,
+        "column": 6
+    },
+{
+		"name": "BeltArmorReinforcement I",
+		"prerequisites": [AdvancedRefit],
+		"uniques": ["[+33]% Strength <vs [Water] units> <when defending>"],
+		"unitTypes": ["Ranged Water"]
+		"row": 5,
+        "column": 30
+    },
+{
+		"name": "BeltArmorReinforcement II",
+		"prerequisites": ["BeltArmorReinforcement I"],
+		"uniques": ["[+33]% Strength <vs [Water] units> <when defending>"],
+		"unitTypes": ["Ranged Water"]
+		"row": 6,
+        "column": 6
+    },
+{
+		"name": "BeltArmorReinforcement III",
+		"prerequisites": ["BeltArmorReinforcement II"],
+		"uniques": ["[+34]% Strength <vs [Water] units> <when defending>"],
+		"unitTypes": ["Ranged Water"]
+		"row": 7,
+        "column": 7
+    },
+{
+		"name": "FireControlUpgrade I",
+		"prerequisites": [AdvancedRefit],
+		"uniques": ["[+15]% Strength"],
+		"unitTypes": ["Ranged Water"]
+		"row": 5,
+        "column": 31
+    },
+{
+		"name": "FireControlUpgrade II",
+		"prerequisites": ["FireControlUpgrade I"],
+		"uniques": ["[+15]% Strength"],
+		"unitTypes": ["Ranged Water"]
+		"row": 6,
+        "column": 7
+    },
+{
+		"name": "FireControlUpgrade III",
+		"prerequisites": ["FireControlUpgrade II"],
+		"uniques": ["[+15]% Strength"],
+		"unitTypes": ["Ranged Water"]
+		"row": 7,
+        "column": 8
+    },
+{
+		"name": "DualPurposeSecondaryBattery I",
+		"prerequisites": [AdvancedRefit],
+		"uniques": ["[+20]% Strength<vs [Air] units>"],
+		"unitTypes": ["Ranged Water"]
+		"row": 5,
+        "column": 32
+    },
+{
+		"name": "DualPurposeSecondaryBattery II",
+		"prerequisites": [DualPurposeSecondaryBattery I],
+		"uniques": ["[+30]% Strength<vs [Air] units>","[-30]% Strength <vs [Water] units>"],
+		"unitTypes": ["Ranged Water"]
+		"row": 6,
+        "column": 8
+    },
+{
+		"name": "AntiAirBattleship",
+		"prerequisites": [DualPurposeSecondaryBattery II],
+		"uniques": ["[+100]% Strength<vs [Air] units>","[90]% chance to intercept air attacks","[-100]% XP gained from combat","[-30]% Strength <vs [Water] units>"],
+		"unitTypes": ["Ranged Water"]
+		"row": 7,
+        "column": 9
+    },
+{
+		"name": "ImprovedRangefinder I",
+		"prerequisites": [AdvancedRefit],
+		"uniques": ["[+15]% Strength <vs [Land] units>", "[+30]% Strength <vs cities> "],
+		"unitTypes": ["Ranged Water"]
+		"row": 5,
+        "column": 33
+    },
+{
+		"name": "ImprovedRangefinder II",
+		"prerequisites": [ImprovedRangefinder I],
+		"uniques": ["[+15]% Strength <vs [Land] units>", "[+30]% Strength <vs cities> "],
+		"unitTypes": ["Ranged Water"]
+		"row": 6,
+        "column": 9
+    },
+{
+		"name": "AviationRefit I",
+		"prerequisites": [AdvancedRefit],
+		"uniques": ["Can carry [1] [Aircraft] units","[-75]% Strength"],
+		"unitTypes": ["Ranged Water"]
+		"row": 5,
+        "column": 34
+    },
+{
+		"name": "AviationRefit II",
+		"prerequisites": [AviationRefit I],
+		"uniques": ["Can carry [2] extra [Aircraft] units","[-100]% Strength"],
+		"unitTypes": ["Ranged Water"]
+		"row": 6,
+        "column": 10
+    },
+{
+		"name": "ScoutPlane",
+		"prerequisites": [AdvancedRefit],
+		"uniques": ["Can see over obstacles","[-1] Movement"],
+		"unitTypes": ["Ranged Water"]
+		"row": 5,
+        "column": 35
+    },
+{
+		"name": "RangeBoost",
+		"prerequisites": [TurretReinforcement III],
+		"uniques": ["[+1] Range"],
+		"unitTypes": ["Ranged Water"]
+		"row": 8,
+        "column": 1
+    }
+//航母
+{
+		"name": "DispatchCenter I",
+		"uniques": ["[+50]% Strength bonus for [Air] units within [0] tiles"],
+		"unitTypes": ["Aircraft Carrier"]
+		"row": 5,
+        "column": 36
+    },
+{
+		"name": "DispatchCenter II",
+		"prerequisites": ["DispatchCenter I"],
+		"uniques": ["[+70]% Strength bonus for [Air] units within [0] tiles"],
+		"unitTypes": ["Aircraft Carrier"]
+		"row": 6,
+        "column": 11
+    },
+{
+		"name": "SeaRepairCrew",
+		"prerequisites": ["DispatchCenter I","Armor Plating I","Flight Deck I"],
+		"uniques": ["Unit will heal every turn, even if it performs an action","May heal outside of friendly territory"],
+		"unitTypes": ["Aircraft Carrier"]
+		"row": 8,
+        "column": 2
+    },
+{
+		"name": "AAConversionSacrificeDeck",
+		"uniques": ["Can carry [-1] extra [Aircraft] units","[+34]% Strength <vs [Air] units> <when defending>","[80]% chance to intercept air attacks"],
+		"unitTypes": ["Aircraft Carrier"]
+		"row": 5,
+        "column": 39
+    },
+{
+		"name": "AAConversionSacrificeBelt",
+		"uniques": ["[-33]% Strength  <when defending>","[+66]% Strength <vs [Air] units> <when defending>","[80]% chance to intercept air attacks"],
+		"unitTypes": ["Aircraft Carrier"]
+		"row": 6,
+        "column": 14
+    },
+
+//潜艇
+{
+		"name": "SubmarineCarrier",
+		"prerequisites": ["Wolfpack III"],
+		"uniques": ["Can carry [1] extra [Aircraft] units","[-25]% Strength <when attacking>"],
+		"unitTypes": ["Submarine"]
+		"row": 5,
+        "column": 38
+    },
+{
+		"name": "AnechoicTiling",
+		"uniques": ["[+45]% Strength  <when defending>"],
+		"unitTypes": ["Submarine"]
+		"row": 6,
+        "column": 15
+    },
+{
+		"name": "EmergencyDive I",
+		"uniques": ["[+10]% Strength  <when defending>","Withdraws before melee combat <with [80]% chance>"],
+		"unitTypes": ["Submarine"]
+		"row": 6,
+        "column": 16
+    },
+{
+		"name": "EmergencyDive II",
+		"uniques": ["[+35]% Strength  <when defending>"],
+		"unitTypes": ["Submarine"]
+		"row": 7,
+        "column": 11
+    },
+{
+		"name": "EmergencyDive III",
+		"uniques": ["[+50]% Strength  <when defending>"],
+		"unitTypes": ["Submarine"]
+		"row": 8,
+        "column": 3
+    },
+//主力舰，航母
+{
+		"name": "EvasiveManeuver I",
+		"prerequisites": [AdvancedRefit],
+		"uniques": ["[+5]% Strength <vs [Water] units> <when defending>","[+10]% Strength<vs [Air] units>"],
+		"unitTypes": ["Ranged Water","Aircraft Carrier"]
+		"row": 5,
+        "column": 37
+    },
+{
+		"name": "EvasiveManeuver II",
+		"prerequisites": [EvasiveManeuver I],
+		"uniques": ["[+10]% Strength <vs [Water] units> <when defending>","[+30]% Strength<vs [Air] units>"],
+		"unitTypes": ["Ranged Water","Aircraft Carrier"]
+		"row": 6,
+        "column": 12
+    },
+{
+		"name": "EvasiveManeuver III",
+		"prerequisites": [EvasiveManeuver II],
+		"uniques": ["[+1] Movement","[+20]% Strength <vs [Water] units> <when defending>","[+50]% Strength<vs [Air] units>"],
+		"unitTypes": ["Ranged Water","Aircraft Carrier"]
+		"row": 7,
+        "column": 10
+    }
+
+//通用
+	{
+		"name": "LowMaintenanceRefit",
+		"uniques": ["[+50]% XP gained from combat"]
+		"unitTypes": ["Melee Water", "Ranged Water","Aircraft Carrier","Submarine"]
+	},
+	{
+		"name": "AdvancedRefit",
+		"prerequisites": ["Bombardment III", "Targeting III", "Boarding Party III", "Coastal Raider III"],
+		"uniques": ["[+50]% XP gained from combat"],
+		"unitTypes": ["Melee Water", "Ranged Water","Aircraft Carrier","Submarine"]
+		"row": 4,
+	        "column": 25,
+    
+	},
+
+
+	]
+//
